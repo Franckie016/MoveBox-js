@@ -1,0 +1,25 @@
+@import 'scss/reset';
+@import 'scss/base';
+
+body {
+  background-color: #d3d3d3;
+}
+
+.postion {
+  padding-top: 40px;
+  text-align: center;
+}
+
+.mouse {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  div {
+    background-color: #000;
+    width: 8vw;
+    height: 2vh;
+    position: fixed;
+  }
+}
